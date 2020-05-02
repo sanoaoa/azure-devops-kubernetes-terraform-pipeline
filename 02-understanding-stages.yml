@@ -13,7 +13,7 @@ stages:
     - bash: echo $(pipelinelevel-variable)
     - bash: echo Build Number $(Build.BuildNumber)
     - bash: echo SourceBranchName $(Build.SourceBranchName)
-    - bash: echo SourceDirectory $(Build.SourceDirectory)
+    - bash: echo SourceDirectory $(Build.SourcesDirectory)
     - bash: echo Default Working Directory $(System.DefaultWorkingDirectory)
   # - job: SecondJob
   #   steps:
